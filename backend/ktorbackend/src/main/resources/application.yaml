@@ -1,0 +1,11 @@
+ktor:
+  deployment:
+    port: 8080
+    host: 0.0.0.0
+  application:
+    modules:
+      - com.example.SecurityKt.configureSecurity
+      - com.example.SerializationKt.configureSerialization
+      - com.example.RateLimitKt.configureRateLimit
+      - com.example.RoutingKt.configureRouting
+      - com.example.CleanupKt.configureCleanup

@@ -1,0 +1,33 @@
+# Secrets: never commit
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+keystore.properties
+local.properties
+
+# Build output and caches
+build/
+.gradle/
+out/
+*.class
+*.log
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Android
+*.apk
+*.aab
+captures/
+.cxx/
+# Local SDK configuration and Kotlin caches
+local.properties
+.kotlin/
